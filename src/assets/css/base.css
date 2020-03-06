@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  overflow: hidden;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: #222;
+}
+i{
+  color: #888;
+  font-size: 24px !important;
+}
+.section {
+  padding: 50px;
+}
+h2{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #999;
+}
+.my-title-icon{
+  color: #1296DB;
+  margin-right: 20px;
+}
+.BMap_cpyCtrl {
+  display: none;
+}
+.anchorBL {
+  display: none;
+}

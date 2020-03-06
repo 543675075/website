@@ -2,6 +2,14 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import 'assets/js/bg.js'
+
+
+
+// CSS
+import 'assets/css/base.css'
+import 'assets/css/iconfont.css'
+import 'assets/css/animation.css'
 
 Vue.config.productionTip = false
 

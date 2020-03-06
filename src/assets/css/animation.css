@@ -1,0 +1,30 @@
+.v-enter,
+.v-leave-to{
+    opacity: 0;
+    transform: translateX(350px);
+}
+.v-enter-active,
+.v-leave-active{
+    transition: all .5s;
+}
+.v-move{
+    transition: all .5s;
+}
+.v-leave-active{
+    position: absolute;
+}
+.my-enter,
+.my-leave-to{
+    opacity: 0;
+    transform: translateX(-50px);
+}
+.my-enter-active,
+.my-leave-active{
+    transition: all .5s;
+}
+/* .my-move{
+    transition: all 1s;
+}
+.my-leave-active{
+    position: absolute;
+} */
