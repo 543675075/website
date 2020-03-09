@@ -1,6 +1,6 @@
 <template>
   <nav class="nav">
-    <ul class="nav-list">
+    <div class="nav-list">
       <nav-item path="/home">
         <img src="~assets/img/home.png" alt="" slot="icon">
       </nav-item>
@@ -28,7 +28,7 @@
         <i class="iconfont" slot="icon">&#xe637;</i>
          <span slot="text">联系</span>
       </nav-item>
-    </ul>
+    </div>
   </nav>
 </template>
 
@@ -42,7 +42,7 @@
   }
 </script>
 
-<style lang="less" scoped>
+<style lang="less" scoped type="text/less">
   .nav {
     width: 100px;
     height: 100%;

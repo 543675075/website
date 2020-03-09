@@ -5,7 +5,7 @@
 html,body{
   overflow: hidden;
 }
-ul{
+ul,li{
   list-style-type: none;
 }
 a{
@@ -15,6 +15,7 @@ a{
 i{
   color: #888;
   font-size: 24px !important;
+  font-style: normal;
 }
 .section {
   padding: 50px;

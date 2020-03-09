@@ -39,7 +39,7 @@ const routes = [
   },
   {
     path: '/show',
-    compomemt: Show
+    component: Show
   },
   {
     path: '/contact',

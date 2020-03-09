@@ -3,11 +3,13 @@
     <div class="icon">
       <img src="~assets/img/icon.jpg" alt="">
     </div>
-    <marquee behavior="scroll" direction="left" scrollamount="10px">
-      <h1 class="h1">
-        Welcome to my personal website
-      </h1>
-    </marquee>
+    <div class="h1">
+      <span>Welcome to my&nbsp;</span>
+      <!-- <strong class="title"></strong> -->
+      <vue-typed-js :strings="strings" :loop="true" :typeSpeed="100" :backSpeed="100">
+        <strong class="typing"></strong>
+      </vue-typed-js>
+    </div>
     <clock></clock>
     <div class="contact">
       <a class="my-font" href="javascript:;"><i class="iconfont">&#xe70e;</i></a>
@@ -22,18 +24,25 @@
 
 
 <script>
+  import 'common/typed.js'
   import Clock from 'components/common/Clock'
 
   export default {
     name: 'Info',
+    data() {
+      return {
+        strings: ["个人网站" , "Personal website"]
+      }
+    },
     components: {
       Clock,
-    }
+    },
   }
 </script>
 
 <style lang="less" scoped>
   .info {
+    width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,7 +51,7 @@
 
   .h1 {
     text-transform: uppercase;
-    margin: 30px 0;
+    margin: 30px auto;
   }
 
   img {
@@ -50,13 +59,15 @@
     height: auto;
     border-radius: 50%;
   }
-  .contact{
+
+  .contact {
     margin-top: 30px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
   }
-  .my-font{
+
+  .my-font {
     display: block;
     width: 40px;
     height: 40px;
@@ -66,18 +77,26 @@
     border: 1px solid #999;
     background-color: #fff;
     transition: all .7s;
-    i{
+
+    i {
       transition: all .7s;
     }
-    &:hover{
+
+    &:hover {
       background-color: #1296DB;
     }
-    &:hover i{
+
+    &:hover i {
       color: #fff;
     }
   }
-  .qq{
+
+  .qq {
     display: inline-block;
     transform: translateX(5px);
+  }
+
+  .typed-element {
+    display: inline;
   }
 </style>

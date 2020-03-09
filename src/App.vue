@@ -12,7 +12,10 @@ export default {
   name: "App",
   components: {
     Container,
-  }
+  },
+  created() {
+    document.title="陈彦霖的简历 -- 你好这是我的个人简历"
+  },
 }
 </script>
 

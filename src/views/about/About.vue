@@ -1,7 +1,7 @@
 <template>
   <div class="about section">
     <h2>About Me</h2>
-    <p class="info"> 大家好!我是练习时长两年半(一年)的前端练习生陈彦霖，喜欢唱(吃)，跳(睡)，rap(学习)，动漫，鸡你太美～，因为是练习生所以咯之前的工作和前端没任何关系！但那又怎么样呢？不断学习不断进步,等我想好我在写点什么</p>
+    <p class="info">{{info}}</p>
     <ul>
       <li>
         <strong>姓名:</strong>
@@ -39,6 +39,11 @@
   import MyProgress from 'components/common/Progress.vue'
   export default {
     name: 'About',
+    data() {
+      return {
+        info: "你好，这个网站是我学Vue后做的一个练习，对于0项目经验想转行的人来说，做个网站应该是唯一的展示窗口了。我之前的工作一直是实体制造业，突然某天就不想这么继续下去了，想尝试不一样的环境，于是开始边工作边学习，对于没基础的我来讲挺困难，但也一直坚持到了现在，既然坚持了那就一直持续下去。。。。"
+      }
+    },
     components: {
       MyProgress
     }

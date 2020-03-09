@@ -50,7 +50,7 @@
     text-align: center;
     font-size: 12px;
     border-radius: 50%;
-    background-color: pink;
+    background-color: rgba(18,150,219, .8) !important;
 
   }
 
@@ -112,7 +112,7 @@
     line-height: 40px;
     border-radius: 50%;
     text-align: center;
-    background-color: powderblue;
+    background-color: rgba(176,224,230, .8) !important;
   }
 
   .small:nth-child(1) {
