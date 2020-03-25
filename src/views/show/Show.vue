@@ -50,12 +50,12 @@
           },
           {
             src: require("assets/img/shopping.jpg"),
-            link: 'https://github.com/543675075/-',
-            text: '仿蘑菇街的一个Vue移动页面'
+            link: 'https://github.com/543675075/superman',
+            text: 'Vue移动页面'
           },
           {
             src: require("assets/img/wx.jpg"),
-            link: 'https://github.com/543675075/-',
+            link: 'https://github.com/543675075/mini-app',
             text: '微信小程序'
           },
         ]
