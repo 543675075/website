@@ -44,9 +44,8 @@
         data: [
           {
             src: require("assets/img/iphone.jpg"),
-            link: 'https://github.com/543675075/-',
-            text: '仿的苹果的官网',
-            num: 0
+            link: 'https://github.com/543675075/-2',
+            text: '微信小程序',
           },
           {
             src: require("assets/img/shopping.jpg"),

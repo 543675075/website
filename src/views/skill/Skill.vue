@@ -1,25 +1,28 @@
 <template>
   <div class="section">
     <h2><i class="iconfont my-title-icon">&#xe651;</i>Skill</h2>
-    <animation class="animation"></animation>
-    <div class="progress-group">
+    <echarts></echarts>
+    <!-- <animation class="animation"></animation> -->
+    <!-- <div class="progress-group">
 
       <skill-progress percentNum="80" text="Html" class="progress-item"></skill-progress>
       <skill-progress percentNum="80" text="Css" class="progress-item"></skill-progress>
       <skill-progress percentNum="60" text="Js" class="progress-item"></skill-progress>
       <skill-progress percentNum="60" text="Vue" class="progress-item"></skill-progress>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script>
   import Animation from 'components/common/Animation'
-  import SkillProgress from './SkillProgress.vue'
+  // import SkillProgress from './SkillProgress.vue'
+  import Echarts from './Echarts.vue'
 export default {
   name: 'Skill',
   components: {
     Animation,
-    SkillProgress
+    // SkillProgress,
+    Echarts
   }
 }
 </script>

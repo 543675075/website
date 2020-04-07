@@ -24,28 +24,31 @@
         张家港后塍
       </li>
     </ul>
-    <div class="progress">
+    <!-- <div class="progress">
       <my-progress>
         <p>Html</p>
       </my-progress>
       <my-progress>
         <p>css</p>
       </my-progress>
-    </div>
+    </div> -->
+    <echarts-about></echarts-about>
   </div>
 </template>
 
 <script>
-  import MyProgress from 'components/common/Progress.vue'
+  // import MyProgress from 'components/common/Progress.vue'
+  import EchartsAbout from './EchartsAbout.vue'
   export default {
     name: 'About',
     data() {
       return {
-        info: "你好，这个网站是我学Vue后做的一个练习，对于0项目经验想转行的人来说，做个网站应该是唯一的展示窗口了。我之前的工作一直是实体制造业，突然某天就不想这么继续下去了，想尝试不一样的环境，于是开始边工作边学习，对于没基础的我来讲挺困难，但也一直坚持到了现在，既然坚持了那就一直持续下去。。。。"
+        info: "没有项目经验，没有工作经验!只能靠开源项目来练习。不放弃。慢慢积累慢慢学"
       }
     },
     components: {
-      MyProgress
+      // MyProgress
+      EchartsAbout
     }
   }
 </script>
